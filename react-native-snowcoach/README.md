@@ -2,6 +2,25 @@
 
 A simple and elegant coachmark library for React Native that creates spotlight tutorials and walkthroughs.
 
+## What's New
+
+## Version 3.0.6 (2/26/2025)
+- **Added Close Button**: 
+  - Replaced the `TouchableWithoutFeedback` with a close button in the `Coachmark` component for better user experience.
+- **Improved Documentation**: 
+  - Updated the README to include a "What's New" section for easier tracking of changes.
+
+## Version 2.0.7 (2/26/2025 - 04:00pm)
+- **Improved Error Handling**: 
+  - Enhanced the `Coachmark` component to prevent `NaN` values for positioning properties. 
+  - Added validation checks to ensure that `top` and `left` values are not negative, defaulting to `0` if they are. This resolves issues related to layout measurement errors and improves the stability of the tooltip display.
+
+- **Consistent Layout Handling**: 
+  - Ensured that all layout values are validated before being used in styles, providing a more robust user experience.
+
+- **No Changes to Usage**: 
+  - The usage of the `Coachmark` component remains the same, allowing for seamless integration into existing projects.
+
 ## Installation
 
 bash
