@@ -1,0 +1,35 @@
+{
+  "name": "@sinovuyo97/react-native-snowcoach",
+  "version": "2.0.0",
+  "description": "A simple and elegant coachmark library for React Native",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "clean": "rm -rf lib"
+  },
+  "keywords": [
+    "react-native",
+    "coachmark",
+    "tutorial",
+    "walkthrough",
+    "spotlight"
+  ],
+  "author": "Sikhisi",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  }
+}
