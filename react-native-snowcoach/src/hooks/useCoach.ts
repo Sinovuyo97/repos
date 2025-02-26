@@ -1,5 +1,5 @@
-import { useRef, useCallback } from 'react';
-import { findNodeHandle, Dimensions } from 'react-native';
+import { useCallback } from 'react';
+import { findNodeHandle } from 'react-native';
 
 interface UseCoachReturn {
   measureNode: (ref: any) => Promise<{

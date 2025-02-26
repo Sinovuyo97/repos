@@ -1,13 +1,22 @@
 {
     "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "declaration": true,
       "outDir": "./lib",
-      "strict": true,
-      "jsx": "react-native",
-      "skipLibCheck": true,
-      "esModuleInterop": true
+      "declaration": true,
+      "jsx": "react",
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es6", "dom"],
+      "sourceMap": true,
+      "allowJs": false,
+      "moduleResolution": "node",
+      "rootDir": "./src",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noUnusedLocals": true,
+      "skipLibCheck": true
     },
     "include": ["src"],
     "exclude": ["node_modules", "lib"]

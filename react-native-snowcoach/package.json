@@ -1,6 +1,6 @@
 {
   "name": "@sinovuyo97/react-native-snowcoach",
-  "version": "2.0.0",
+  "version": "2.0.6",
   "description": "A simple and elegant coachmark library for React Native",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
